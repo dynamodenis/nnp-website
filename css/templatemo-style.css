@@ -186,6 +186,9 @@ h1,h2,h3,h4,h5
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: #fff; 
 }
+.headline-heading{
+    font-size: 2.5rem;
+}
 
 .header {
     display: flex;
@@ -312,6 +315,14 @@ h1,h2,h3,h4,h5
 }
 .login_button:active::before{
     transform: translateY(0);
+}
+.login_button--link{
+    text-decoration: none;
+    color: white;
+}
+.login_button--link:hover{
+    text-decoration: none;
+    color: white;
 }
 .icon-mobile-nav {
     height: 4.8rem;

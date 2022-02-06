@@ -26,6 +26,7 @@ $(function() {
 	  link.addEventListener('click', (e) => {
 		e.preventDefault();
 		const href = link.getAttribute('href');
+
   
 		// Scroll back to top
 		if (href === '#')
@@ -44,6 +45,7 @@ $(function() {
 		if (link.classList.contains('main-nav__link')) {
 		  headerEl.classList.toggle('nav-open');
 		}
+		window.open(href,"_blank");
 	  })
 	);
 });
@@ -82,5 +84,6 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  console.log(dots[slideIndex-1])
+//   dots[slideIndex-1].className += " active";
 }
