@@ -356,13 +356,26 @@ h1,h2,h3,h4,h5
 
 #home
 	{
-        background: url('../images/new.JPG');
-        background-size: cover;
-        background-repeat: no-repeat;
+        /* background: url('../images/new.jpg'); */
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 	}
+.background_1{
+    background-image: url('../images/new.jpg');
+    transition: background-image 0.5s ease-in;
+}
+.background_2{
+    background-image: url('../images/innovation.jpg');
+    transition: background-image 0.5s ease-in;
+}
+.background_3{
+    background-image: url('../images/training.jpg');
+    transition: background-image 0.5s ease-in;
+}
+
 .overlay{
     position: absolute;
     top: 0;
@@ -829,3 +842,59 @@ footer hr
         color: #a4dd25;
     }
 /* end social icon */
+
+/* #slider {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top:0%;
+    left: 0%;
+   
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+   
+    float: left;
+  }
+  #slider ul li img{
+    width: 100%;
+    height: 100vh;
+  }
+   
+  #slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+  }
+  #slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+  }
+  #slider #prev {
+    left: 10px;
+  }
+  #slider #next {
+    right: 10px;
+  } */
