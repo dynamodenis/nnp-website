@@ -16,8 +16,9 @@
 	display: block;
 }
 .mis-slider li figcaption {
-	font-size: 1.5em;
-    color: #212121;
+	font-size: 1.2em;
+    /* color: #212121; */
+	font-weight: 600;
 }
 .mis-slider li img {
 	max-width: 270px;
